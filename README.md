@@ -1,1 +1,1 @@
-[hhttp://kontsedal.github.io/pacman/](hhttp://kontsedal.github.io/pacman/)
+[http://kontsedal.github.io/pacman/](http://kontsedal.github.io/pacman/)
