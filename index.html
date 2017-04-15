@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacman</title>
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+<div class="c-game-wrapper">
+    <div class="c-view js-play-view">
+        <h1 class="c-view__title">Pacman game</h1>
+        <button class="js-play c-btn">Play</button>
+    </div>
+    <div class="c-view u-hidden js-new-lvl-view">
+        <h1 class="c-view__title"> Level <span class="js-new-lvl"></span></h1>
+        <h2 class="c-view__description js-lvl-title"></h2>
+        <button class="c-btn js-next-lvl-btn">Play</button>
+    </div>
+    <div class="c-view u-hidden js-game-over-view">
+        <h1 class="c-view__title">Game over</h1>
+        <h2 class="c-view__description">Your score is: <span class="js-gameover-score">0</span></h2>
+        <button class="js-play c-btn">Play again</button>
+    </div>
+    <div class="c-score-wrapper">Score: <span class="js-score">0</span></div>
+    <div class="c-lvl-wrapper">LVL - <span class="js-lvl">0</span></div>
+    <div class="c-lives-wrapper">Lives: <span class="js-lives">0</span></div>
+    <canvas id="game" width="540" height="440"></canvas>
+</div>
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>

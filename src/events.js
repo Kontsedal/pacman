@@ -1,0 +1,7 @@
+export default {
+    EAT_COIN: "EAT_COIN",
+    EAT_BIG_COIN: "EAT_BIG_COIN",
+    DIE_PACMAN: "DIE_PACMAN",
+    EAT_GHOST: "EAT_GHOST",
+    PACMAN_DEAD: "PACMAN_DEAD"
+}

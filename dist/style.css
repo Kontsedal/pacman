@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #4c4c4c;
+}
+
+canvas {
+    margin: 0 auto;
+    width: 540px;
+    height: 440px;
+    background-color: transparent;
+    display: block;
+}
+
+.c-game-wrapper {
+    width: 540px;
+    margin: 0 auto;
+    position: relative;
+    padding: 50px 0 0 0;
+}
+
+.c-score-wrapper {
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    font-size: 15px;
+}
+
+.c-lives-wrapper {
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    font-size: 15px;
+}
+
+.c-lvl-wrapper {
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.c-view {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.c-view__title {
+    font-size: 20px;
+    text-align: center;
+    padding: 70px 0 20px 0;
+}
+
+.c-view__description {
+    font-size: 18px;
+    color: #a0a0a0;
+    padding: 0 0 70px 0;
+    font-weight: normal;
+}
+.c-btn {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;;
+    background-color: #efee1f;
+}
+
+.c-btn:hover {
+    background-color: #efe166;
+}
+
+.u-hidden {
+    display: none;
+}
